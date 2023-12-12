@@ -1,0 +1,11 @@
+- name: 'I2CVB Retinopathy'
+  i18n: 'retinopathy'
+  url: '/I2Cvb/retinopathy'
+  img: 'static/img/landing/i2cvb.png'
+  desc: 'Repository associated with our medical imaging development related to retinopathy.'
+
+- name: 'VIPeR'
+  i18n: 'VIPeR'
+  url: 'https://gitlab.com/olivimo/VIPeR'
+  img: 'static/img/landing/VIPeR.png'
+  desc: 'VIsion Polarimétrique pour la navigation de Robots, a project dedicated to exploit polarization as an extra navigation tool for the robot'
