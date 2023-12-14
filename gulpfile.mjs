@@ -1,12 +1,14 @@
-var gulp = require('gulp');
-var csso = require('gulp-csso');
-var uglify = require('gulp-uglify');
-var concat = require('gulp-concat');
-var sass = require('gulp-sass');
-var plumber = require('gulp-plumber');
-var cp = require('child_process');
-var imagemin = require('gulp-imagemin');
-var browserSync = require('browser-sync');
+import gulp from 'gulp';
+import csso from 'gulp-csso';
+import uglify from 'gulp-uglify';
+import concat from 'gulp-concat';
+import * as dartSass from 'sass';
+import gulpSass from 'gulp-sass';
+const sass = gulpSass(dartSass);
+import plumber from 'gulp-plumber';
+import imagemin from 'gulp-imagemin';
+import { spawn } from 'node:child_process';
+import browserSync from 'browser-sync';
 
 var jekyllCommand = (/^win/.test(process.platform)) ? 'jekyll.bat' : 'jekyll';
 
@@ -15,7 +17,7 @@ var jekyllCommand = (/^win/.test(process.platform)) ? 'jekyll.bat' : 'jekyll';
  * runs a child process in node that runs the jekyll commands
  */
 gulp.task('jekyll-build', function (done) {
-	return cp.spawn(jekyllCommand, ['build'], {stdio: 'inherit'})
+	return spawn(jekyllCommand, ['build'], {stdio: 'inherit'})
 		.on('close', done);
 });
 
