@@ -1,11 +1,15 @@
 - name: Legislation
   url: https://github.com/yrrah/legislation
   img: /assets/img/skate.jpg
-  desc: 'Exploration of NLP models applied to congressional legislation.'
+  desc: Exploration of NLP models applied to congressional legislation. <a href="https://github.com">Testing Landing Page</a>
 
 - name: Intelligent Assignment of Data to Deduplication Nodes
   url: https://github.com/yrrah/cs6620-fall21-intelligent-assignment-of-data-to-dedup-nodes
   img: /assets/img/dedup_system.jpg
+  tech: 
+  - <a class="devicon-git-plain" href="https://git-scm.com" alt="Git"></a>
+  - <a class="devicon-kubernetes-plain-wordmark colored" href="https://kubernetes.io/" alt="Kubernetes"></a>
+  - <a class="devicon-git-plain" href="https://git-scm.com" alt="Git"></a>
   desc: 'A project developed to run on MOC in OpenShift that simulates large scale deduplication of backup data. Several algorithms evaluated, supervised by Dell EMC.'
   links: 
   - https://github.com/yrrah/cs6620-fall21-intelligent-assignment-of-data-to-dedup-nodes/graphs/contributors?from=2021-09-19&to=2022-01-01
@@ -14,4 +18,8 @@
 - name: Covey.Town Chat Feature
   url: https://github.com/yrrah/covey.town
   img: /assets/img/coveytown.jpg
+  tech: 
+  - devicon-git-plain
+  - devicon-git-plain
+  - devicon-git-plain
   desc: 'Implemented a chat feature for an open source virtual meeting app.'

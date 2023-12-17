@@ -9,9 +9,9 @@
       </div>
       <div class="{% cycle 'contents', 'contents-right' %}">
         <h3>{{ item.name }}</h3>
-        <ul>
-          <li> Featured Skills</li>
-        </ul>
+        {% for tech in item.tech %}
+          {{ tech }}
+        {% endfor %}
         <p>{{ item.desc }}</p>
         <a class="project-link" href="{{item.url}}">Check it out</a>
       </div>
