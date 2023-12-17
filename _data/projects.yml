@@ -28,7 +28,7 @@
 
 - name: Siamese Capsule Network
   url: https://github.com/VikramShenoy97/Multi-Layer-Capsule-Network
-  img: /assets/img/siamese2.jpg
+  img: /assets/img/siamese.jpg
   tech:
   - devicon-python-plain-wordmark
   - devicon-pytorch-plain-wordmark colored bigger
