@@ -5,15 +5,15 @@
   - devicon-python-plain-wordmark
   - devicon-kubernetes-plain-wordmark colored
   - devicon-redhat-plain-wordmark colored
-  desc: A project developed to run on <a href="https://massopen.cloud/">MOC</a> in OpenShift that simulates large scale deduplication of backup data, supervised by Dell EMC. Compared performance of several deduplication algorithms including a reinforcement learning (Q-learning) implementation.
+  desc: A project developed to run on <a href="https://massopen.cloud/">MOC</a> in OpenShift that simulates large scale deduplication of backup data, supervised by Dell EMC. Compared performance of several deduplication algorithms including a <a href="https://github.com/yrrah/cs6620-fall21-intelligent-assignment-of-data-to-dedup-nodes/blob/main/rl_report/report.md">reinforcement learning</a> (Q-learning) <a href="https://github.com/yrrah/cs6620-fall21-intelligent-assignment-of-data-to-dedup-nodes/blob/main/simulator/front_end/src/front_end/routing/q_learning.py">implementation</a>.
 
-- name: Legislation
+- name: Identifying Similar Legislation
   url: https://github.com/yrrah/legislation
   img: /assets/img/tree.jpg
   tech: 
   - devicon-python-plain-wordmark
   - devicon-neo4j-plain-wordmark colored
-  desc: Exploration of NLP models applied to congressional legislation. 
+  desc: Exploration of NLP models applied to congressional legislation. The project required deciding how to break up and tokenize large documents of structured, but not consistently annotated text. I produced an RDF graph representation of each document along with vector representations of document paragraphs to perform similarity searches. I plan to revist this project in light of the recent developments with GPT LLMs.
   
 - name: Covey.Town Chat Feature
   url: https://github.com/yrrah/covey.town
@@ -22,7 +22,7 @@
   - devicon-typescript-plain colored smaller
   - devicon-express-original-wordmark colored bigger
   - devicon-react-original-wordmark colored smaller
-  desc: Implemented a chat feature for an open source virtual meeting app.
+  desc: Implemented a chat feature for an open source virtual meeting platform. Documented detailed <a href="https://github.com/yrrah/covey.town/blob/master/FEATURES.md">user stories</a> and implemented frontend and backend changes with full test coverage according to <a href="https://github.com/yrrah/covey.town/blob/master/DESIGN.md">sequence and state diagrams</a>. 
 
 - name: Siamese Capsule Network
   url: https://github.com/VikramShenoy97/Multi-Layer-Capsule-Network
